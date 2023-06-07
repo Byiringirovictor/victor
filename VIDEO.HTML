@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIDEO</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .head{
+        color: white;
+        background: rgb(45, 95, 48);
+        height: 150px;
+    }
+    h1{
+        margin-left: 150px;
+        margin-top: 2px;
+        font-size: 30px;
+    }
+    body{
+        background-image: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(./way.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .links{
+     display: flex;
+     gap: 25px;
+     font-size: 25px;
+     float: right;
+     margin-top: 20px;
+     margin-right: 20px;
+     
+    }
+    hr{
+        color: rgb(237, 245, 237);
+    }
+     a{
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(12, 210, 75);
+       
+        
+        
+    }
+    nav .logo{
+    width: 160px;
+    margin-top: 1px;
+    margin: 0;
+    padding: 0;
+   }
+    a:hover{
+        background:rgb(243, 241, 241);
+        color: rgb(9, 145, 32);
+        opacity: .8;
+    }
+    
+    video{
+        height: 700px;
+        width: fit-content;
+    }
+</style>
+<body>
+    <div class="head">
+        <h1>ONLINE PORTAL SITE FOR RESERVATION TOURISTIC FEATURES IN RWANDA</h1>
+        <nav>
+            <img src="./TOURISTIC.png" class="logo">
+        </nav>
+    </div>
+    <div class="links">
+        <a href="touristic.html">HOME</a>
+        <a href="LOG IN.HTML">LOG IN</a>
+        <a href="SIGN UP.html">SIGN UP</a>
+        <a href=video.html>VIDEOS</a>
+        <a href="ABOUT US.HTML">ABOUT US</a>
+        <a href="HELP.HTML">HELP</a>
+    </div> 
+   <center>
+    <video controls autoplay muted>
+        <source src="./visit.mp4" class="video">
+    </video>
+   </center>
+</body>
+</html>
